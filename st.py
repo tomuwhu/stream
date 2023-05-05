@@ -1,6 +1,6 @@
 import streamlit as st
 
-data = st.text_input("Title")
+data = st.text_input("Írj be valamit!")
 
 st.write(data)
 
