@@ -19,6 +19,9 @@ if st.button("Töröl mind"):
 
 res = cur.execute("SELECT * FROM movie")
 
-a = res.fetchall()
+names = [description[0] for description in cur.description]
+names
 
+a = res.fetchall()
 a
+
