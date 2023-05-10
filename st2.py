@@ -9,7 +9,7 @@ r = get(f"https://itunes.apple.com/search?limit={p}&term={i}").json()
 
 if (r["results"]):
     for e in r["results"]:
-        if e["artistName"] and e["trackName"] and e["previewUrl"]:
+        if "artistName" in e and "trackName" in e and "previewUrl" in e:
             e["artistName"] + ": " + e["trackName"]
             audio(e["previewUrl"])
 else:
