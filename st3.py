@@ -21,4 +21,4 @@ res = cur.execute("SELECT * FROM movie")
 
 a = res.fetchall()
 
-st.tabe(a)
+a
