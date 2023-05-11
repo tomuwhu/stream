@@ -26,3 +26,4 @@ line_chart(l)
 "## További példák"
 "[Összevissza mindenféle](https://tomuwhu-stream-st-erqpjs.streamlit.app/)"
 "[SQLite példa](https://tomuwhu-stream-st3-zhmjrw.streamlit.app/)"
+"[A másodfokú egyenlet példa](https://tomuwhu-stream-st4-e2uytb.streamlit.app/)"
