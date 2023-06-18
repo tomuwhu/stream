@@ -36,5 +36,5 @@ c = alt.Chart(
 Az $f(x) = x^2-x-2 = (x-2)(x+1)$ függvény grafikonja:
 """
 
-st.altair_chart(c, use_container_width=True)
+st.altair_chart(c, use_container_width=False)
 
